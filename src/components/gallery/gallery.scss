@@ -1,0 +1,40 @@
+@import '../../assets/scss_styles/global-imports';
+
+
+.galleryTitle {
+   @include font(44px, $ff, 500, normal, 22px, $color_dblue);
+   text-transform: uppercase;
+   text-align: center;
+   padding: 180px 0 100px;
+
+   @include _1024 {
+      padding: 80px 0;
+      font-size: 36px;
+   }
+
+   @include _768 {
+      font-size: 28px;
+      padding: 60px 0;
+   }
+
+   @include _576 {
+      font-size: 24px;
+      padding: 30px 0;
+   }
+}
+
+.galleryCollapseButton {
+   padding: 60px 0 140px;
+
+   @include _1024 {
+      padding: 60px 0;
+   }
+
+   @include _768 {
+      padding: 30px 0;
+   }
+
+   @include _576 {
+      padding: 20px 0;
+   }
+}

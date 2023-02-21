@@ -1,0 +1,11 @@
+@import '../../assets/scss_styles/global-imports';
+
+.button {
+   @include size(50px, 190px);
+   @include font(14px, $ffBook, 400, normal, 50px, $color_dblue);
+   text-transform: uppercase;
+   line-height: 50px;
+   text-align: center;
+   border: 1px solid $color_dgrey;
+   border-radius: 5px;
+}

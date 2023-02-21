@@ -1,0 +1,33 @@
+@import '../../../assets/scss_styles/global-imports';
+
+.card-body {
+   @include display($df, space-between, flex-start);
+   min-height: 320px;
+   flex-direction: column;
+
+   @include _768 {
+      min-height: 400px;
+   }
+
+   @include _576 {
+      min-height: 350px;
+   }
+
+   .title {
+      @include font(22px, $ff, 700, normal, 22px, $color_dblue);
+      text-transform: uppercase;
+   }
+
+   .text {
+      @include font(18px, "Open Sans", 400, normal, 30px, $color_dgrey);
+   }
+
+   .autor {
+      @include font(18px, $ff, 400, normal, 22px, $color_dblue);
+      text-transform: uppercase;
+   }
+
+   .data {
+      @include font(14px, $ff, 400, normal, 22px, #55b7ff);
+   }
+}

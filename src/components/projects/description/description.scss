@@ -1,0 +1,46 @@
+@import '../../../assets/scss_styles/global-imports';
+
+.description {
+   @include display($df, space-around, flex-start);
+   flex-direction: column;
+   padding: 130px 20px 60px 70px;
+
+   @include _992 {
+      padding-left: 0px;
+   }
+
+   @include _768 {
+      padding: 20px 10px;
+   }
+
+   .titleStringFirst {
+      @include font(22px, $ffBook, 400, normal, 22px, $color_dblue);
+      text-transform: uppercase;
+
+      @include _768 {
+         text-align: center;
+      }
+   }
+
+   .titleStringSecond {
+      margin: 15px 0 40px 0;
+      @include font(44px, $ff, 700, normal, 46px, $color_dblue);
+      text-transform: uppercase;
+
+      @include _1200 {
+         font-size: 34px;
+         line-height: 36px;
+      }
+
+      @include _768 {
+         font-size: 28px;
+         line-height: 30px;
+         text-align: center;
+      }
+
+      @include _576 {
+         font-size: 22px;
+         line-height: 24px;
+      }
+   }
+}

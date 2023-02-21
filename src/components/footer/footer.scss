@@ -1,0 +1,26 @@
+@import '../../assets/scss_styles/global-imports';
+
+.footerWrapper {
+   @include display($df, $jc, $ai);
+   @include font(14px, $ff, 400, normal, 22px, $color_fff);
+   padding: 220px 0;
+
+   @include _1024 {
+      padding: 80px 0;
+   }
+
+   @include _992 {
+      padding: 60px 0;
+   }
+
+   @include _576 {
+      padding: 30px 0;
+   }
+
+   span {
+      color: darkred;
+      font-size: 18px;
+      text-transform: uppercase;
+   }
+
+}

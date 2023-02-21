@@ -1,0 +1,44 @@
+@import '../../assets/scss_styles/global-imports';
+
+.newsWraper {
+   min-height: 1050px;
+   @include size($h, $w);
+
+   @include _992 {
+      min-height: 850px;
+   }
+
+   @include _450 {
+      min-height: 750px;
+   }
+
+   @include _350 {
+      min-height: 700px;
+   }
+
+   .news {
+      @include size($h, $w);
+
+      .newsTitle {
+         padding: 180px 0 100px;
+         @include font(44px, $ff, 500, normal, 22px, $color_fff);
+         text-transform: uppercase;
+         text-align: center;
+
+         @include _1024 {
+            padding: 80px 0;
+            font-size: 36px;
+         }
+
+         @include _768 {
+            font-size: 28px;
+            padding: 60px 0;
+         }
+
+         @include _576 {
+            font-size: 24px;
+            padding: 30px 0;
+         }
+      }
+   }
+}

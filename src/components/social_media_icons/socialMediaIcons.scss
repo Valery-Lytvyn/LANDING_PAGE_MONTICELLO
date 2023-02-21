@@ -1,0 +1,18 @@
+@import '../../assets/scss_styles/global-imports';
+
+.socialList {
+   list-style: none;
+
+   .socialItem {
+      color: $color_fff;
+      border: 1px solid $color_fff;
+      border-radius: 50%;
+      @include size(30px, 30px);
+      text-align: center;
+      line-height: 26px;
+
+      &:hover {
+         box-shadow: 0px 0px 5px 1px $color_fff;
+      }
+   }
+}

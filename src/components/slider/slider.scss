@@ -1,0 +1,49 @@
+@import '../../assets/scss_styles/global-imports';
+
+.react-multiple-carousel__arrow {
+   background: none;
+   @include size(40px, 40px);
+   border: 1px solid $color_fff;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 40px;
+   color: $color_fff;
+
+   &:hover {
+      background: none;
+      box-shadow: 0px 0px 5px 1px $color_fff;
+   }
+
+   @include _576 {
+      background: $color_dgrey;
+      @include size(20px, 20px);
+      opacity: .5;
+
+      &:hover {
+         background: $color_dgrey;
+         box-shadow: 0px 0px 5px 1px $color_fff;
+      }
+   }
+}
+
+.react-multiple-carousel__arrow--left {
+   left: calc(-3% + 1px);
+}
+
+.react-multiple-carousel__arrow--right {
+   right: calc(-3% + 1px);
+}
+
+.react-multi-carousel-list {
+   position: unset;
+   margin: 0 40px;
+
+   @include _576 {
+      position: static;
+      margin: 0;
+   }
+}
+
+.react-multi-carousel-dot--active button {
+   background: none;
+}

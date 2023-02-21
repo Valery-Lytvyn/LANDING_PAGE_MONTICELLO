@@ -1,0 +1,12 @@
+@import '../../../assets/scss_styles/global-imports';
+
+.navItem {
+   text-decoration: none;
+   @include font(14px, $ff, 400, normal, 34px, $color_fff);
+   text-transform: uppercase;
+
+   &:hover {
+      color: $color_fff;
+      text-shadow: 1px 1px 5px $color_fff;
+   }
+}

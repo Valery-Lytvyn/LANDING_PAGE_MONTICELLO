@@ -1,0 +1,66 @@
+@import '../../assets/scss_styles/global-imports';
+
+.header {
+   @include display($df, space-between, $ai);
+   flex-direction: column;
+   min-height: 800px;
+
+   @include _768 {
+      min-height: 600px;
+   }
+
+   @include _576 {
+      min-height: 400px;
+   }
+
+}
+
+.headerMenu {
+   @include display($df, space-between, $ai);
+   @include size($h, $w);
+   flex-direction: column;
+   padding-top: 15px;
+
+
+   .colorChoice {
+      @include display($df, flex-end, $ai);
+      @include size($h, $w);
+   }
+}
+
+.headerTitle {
+   @include font(80px, $ff, 700, 4px, 22px, $color_fff);
+   text-transform: uppercase;
+   text-align: center;
+
+   @include _1200 {
+      font-size: 68px;
+      padding-bottom: 250px;
+   }
+
+   @include _1024 {
+      font-size: 54px;
+   }
+
+   @include _768 {
+      font-size: 42px;
+      padding-bottom: 150px;
+   }
+
+   @include _576 {
+      font-size: 24px;
+      padding-bottom: 30px;
+   }
+
+   h4 {
+      margin-top: 40px;
+      @include font(18px, $ff, 400, 5px, 22px, $color_fff);
+      text-transform: uppercase;
+      text-align: center;
+
+      @include _576 {
+         font-size: 14px;
+         margin: 20px 0 20px;
+      }
+   }
+}

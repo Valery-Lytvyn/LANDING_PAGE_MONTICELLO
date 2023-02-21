@@ -1,0 +1,17 @@
+@import '../../../assets/scss_styles/global-imports';
+
+.colorChoice {
+   @include display($df, $jc, $ai);
+   padding-bottom: 10px;
+   opacity: .5;
+
+   &:hover {
+      opacity: 1;
+   }
+
+   .color {
+      border: 1px solid $color_fff;
+      border-radius: 50%;
+      @include size(30px, 30px);
+   }
+}
