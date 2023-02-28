@@ -15,8 +15,8 @@ function Gallery() {
             </div>
             <div className='galleryTable'>
                <div className='row p-0 m-0'>
-                  <Cell picture={galleryPictureArr[0]} className={'col-12 col-lg-6 p-2 pt-0 pt-lg-2'} />
-                  <div className='col-12 col-lg-6 p-0'>
+                  <Cell picture={galleryPictureArr[0]} className={' col-lg-6 p-2 pt-0 pt-lg-2'} />
+                  <div className=' col-lg-6 p-0'>
                      <div className='row p-0 m-0'>
                         <Cell picture={galleryPictureArr[1]} className={'col-md-6 p-2'} />
                         <Cell picture={galleryPictureArr[2]} className={'col-md-6 p-2'} />
