@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/LANDING_PAGE_MONTICELLO/static/css/main.3499b6be.css",
+    "main.js": "/LANDING_PAGE_MONTICELLO/static/js/main.29d38a8f.js",
+    "static/media/header_bg.png": "/LANDING_PAGE_MONTICELLO/static/media/header_bg.ddc7eb9ae33b3f8dcace.png",
+    "static/media/news_bg.png": "/LANDING_PAGE_MONTICELLO/static/media/news_bg.9e64b7f3cd25874645ee.png",
+    "static/media/Gotham-Book.eot": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Book.6fe95c65f146e31483c0.eot",
+    "static/media/Gotham-Book.ttf": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Book.6f0fc4e65b2b74de61c5.ttf",
+    "static/media/Gotham-Medium.eot": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Medium.3f99e632704c02579b26.eot",
+    "static/media/Gotham-Medium.ttf": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Medium.5a5061d520ff31fad9e9.ttf",
+    "static/media/Gotham-Bold.eot": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Bold.ee4454868c1565043423.eot",
+    "static/media/Gotham-Bold.ttf": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Bold.b77f9460e9e9c62c7b2f.ttf",
+    "static/media/projects_1.jpg": "/LANDING_PAGE_MONTICELLO/static/media/projects_1.8724ebaee8b5647c3a48.jpg",
+    "static/media/Gotham-Book.woff": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Book.0a97b0e648c82825c559.woff",
+    "static/media/Gotham-Medium.woff": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Medium.48f045c065e72b3890ac.woff",
+    "static/media/Gotham-Bold.woff": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Bold.df56df694d49cc707756.woff",
+    "static/media/projects_2.jpg": "/LANDING_PAGE_MONTICELLO/static/media/projects_2.5f8d3deba90e1f153c86.jpg",
+    "static/media/Gotham-Medium.woff2": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Medium.17c94287bac3f1cf030b.woff2",
+    "static/media/Gotham-Book.woff2": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Book.2f62b850788c0c0d6adb.woff2",
+    "static/media/gallery_1.jpg": "/LANDING_PAGE_MONTICELLO/static/media/gallery_1.f0989404d7d66aed0875.jpg",
+    "static/media/Gotham-Bold.woff2": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Bold.0d0bf56e1e7f61d4cc10.woff2",
+    "static/media/gallery_5.jpg": "/LANDING_PAGE_MONTICELLO/static/media/gallery_5.f9f571096ba3ed8a42f3.jpg",
+    "static/media/gallery_4.jpg": "/LANDING_PAGE_MONTICELLO/static/media/gallery_4.d32a6e6a356599058775.jpg",
+    "static/media/news_photo_2.jpg": "/LANDING_PAGE_MONTICELLO/static/media/news_photo_2.603752dff27282056c9c.jpg",
+    "static/media/news_photo_3.jpg": "/LANDING_PAGE_MONTICELLO/static/media/news_photo_3.69e4e11c77940bd98ab2.jpg",
+    "static/media/gallery_2.jpg": "/LANDING_PAGE_MONTICELLO/static/media/gallery_2.f3b33b3d2ce4971ccd5f.jpg",
+    "static/media/news_photo_1.jpg": "/LANDING_PAGE_MONTICELLO/static/media/news_photo_1.ad6e6b3166c75b44b27b.jpg",
+    "static/media/revicons.eot": "/LANDING_PAGE_MONTICELLO/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/LANDING_PAGE_MONTICELLO/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/gallery_3.jpg": "/LANDING_PAGE_MONTICELLO/static/media/gallery_3.ad2c0af9a2a57427b717.jpg",
+    "static/media/footer_bg.jpg": "/LANDING_PAGE_MONTICELLO/static/media/footer_bg.33649288232c32a75338.jpg",
+    "static/media/revicons.woff": "/LANDING_PAGE_MONTICELLO/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/LANDING_PAGE_MONTICELLO/index.html",
+    "main.3499b6be.css.map": "/LANDING_PAGE_MONTICELLO/static/css/main.3499b6be.css.map",
+    "main.29d38a8f.js.map": "/LANDING_PAGE_MONTICELLO/static/js/main.29d38a8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3499b6be.css",
+    "static/js/main.29d38a8f.js"
+  ]
+}
