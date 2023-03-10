@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LANDING_PAGE_MONTICELLO/static/css/main.3499b6be.css",
-    "main.js": "/LANDING_PAGE_MONTICELLO/static/js/main.29d38a8f.js",
-    "static/media/header_bg.png": "/LANDING_PAGE_MONTICELLO/static/media/header_bg.ddc7eb9ae33b3f8dcace.png",
+    "main.css": "/LANDING_PAGE_MONTICELLO/static/css/main.c47e5285.css",
+    "main.js": "/LANDING_PAGE_MONTICELLO/static/js/main.c5c75907.js",
+    "static/media/header_bg.webp": "/LANDING_PAGE_MONTICELLO/static/media/header_bg.fc3b33673ce13b02d1d5.webp",
     "static/media/news_bg.png": "/LANDING_PAGE_MONTICELLO/static/media/news_bg.9e64b7f3cd25874645ee.png",
     "static/media/Gotham-Book.eot": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Book.6fe95c65f146e31483c0.eot",
     "static/media/Gotham-Book.ttf": "/LANDING_PAGE_MONTICELLO/static/media/Gotham-Book.6f0fc4e65b2b74de61c5.ttf",
@@ -31,11 +31,11 @@
     "static/media/footer_bg.jpg": "/LANDING_PAGE_MONTICELLO/static/media/footer_bg.33649288232c32a75338.jpg",
     "static/media/revicons.woff": "/LANDING_PAGE_MONTICELLO/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/LANDING_PAGE_MONTICELLO/index.html",
-    "main.3499b6be.css.map": "/LANDING_PAGE_MONTICELLO/static/css/main.3499b6be.css.map",
-    "main.29d38a8f.js.map": "/LANDING_PAGE_MONTICELLO/static/js/main.29d38a8f.js.map"
+    "main.c47e5285.css.map": "/LANDING_PAGE_MONTICELLO/static/css/main.c47e5285.css.map",
+    "main.c5c75907.js.map": "/LANDING_PAGE_MONTICELLO/static/js/main.c5c75907.js.map"
   },
   "entrypoints": [
-    "static/css/main.3499b6be.css",
-    "static/js/main.29d38a8f.js"
+    "static/css/main.c47e5285.css",
+    "static/js/main.c5c75907.js"
   ]
 }
